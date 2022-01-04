@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="heading"><div class="score"> 0 </div> Number Practice Game <div id="countdown"></div></div>
+    <div class="sumit">
+    <div class="main">
+        
+        <div class="num" id="x">
+            <p class="p"></p>
+        </div>
+        <div class="num" id="y">
+            <p class="p"></p>
+        </div>
+        
+        <div class="num" id="z">
+            <p></p>
+        </div>
+        <br></br>
+        <div class="num" id="a">
+            <p></p>
+        </div>
+        <div class="num" id="b">
+            <p></p>
+        </div>
+        <div class="num" id="c">
+            <p></p>
+        </div>
+    </div>
+    
+    <div class="scorebord">
+        <button class="button-17" role="button" id="submit">Save Scores</button>
+    </div>
+   
+
+</div>
+   
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io();
+</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/logic.js">
+    </script>
+
+    
+</body>
+</html>
